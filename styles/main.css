@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    box-sizing: content-box;
+    color: black;
+    height: 100%;
+    background-image: url(/images/jaguar.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: forestgreen;
+  }
+  
+  .active {
+    background-color: darkred;}
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .div{
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+    }
+    .card {
+        width: 300px; 
+        height: 300px;
+        margin: 150px auto;
+      }
+      h1{
+        color: darkred;
+        text-align: center; 
+        top: 100px; 
+        margin-bottom: 20px;
+        z-index: 1;
+        position: relative;
+      }
+      
